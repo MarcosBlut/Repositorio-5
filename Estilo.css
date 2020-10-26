@@ -1,0 +1,361 @@
+
+.verdeLatina {
+	color:#47ab45;
+}
+
+.negro {
+	color:black;
+}
+
+.verdeLatina2 {
+	color:#4bf084;
+}
+
+ul li{
+	color: #11CAE0;
+}
+ol li{
+	color: #FFAE00;
+}
+
+.azulLatina{	
+	color: #11CAE0;
+}
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+
+#comocomprar{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	
+
+}
+
+h3{text-align: right;}
+
+#parrafoObjetivo{
+	font-size: 25px;
+}
+
+
+
+/*Nuestros Productos*/
+ul{
+	list-style: none;
+	font-size: 0
+
+
+}
+li{
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: #4bf084;
+}
+
+
+
+tr th{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+#combos{
+	color: black;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+ul ul{
+	position: absolute;
+	display:none;
+}
+
+ul ul li{
+	display:block;
+}
+
+ul li ul {
+	display: block;
+}
+
+.grid5{
+	display: grid;
+	grid-template-areas: "head"
+	grid-template-rows:20px;
+
+}
+
+.x{
+	grid-area: head; 
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+
+
+
+/*Nuestros productos*/
+
+/*Quienes Somos PAGINA BASE*/
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: url(../../img/Imagen2.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding: 300px 500px;
+	
+}
+.contenedor .item{
+	width: 600px;
+	height: 50px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 100px;
+}
+/*Quienes Somos PAGINA BASE*/
+
+
+/*Nuestros Productos PAGINA BASE*/
+.contenedor2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background: url(../../img/nuestrosproductos.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding: 300px 500px;
+}
+
+.contenedor2 .item2{
+	width: 600px;
+	height: 50px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 100px;
+}
+/*Nuestros Productos PAGINA BASE*/
+
+
+
+/*Nuestro Objetivo PAGINA BASE*/
+.contenedor3{
+	display: flex;
+	flex-direction: row;
+	align-content: : center;
+	background: url(../../img/QS.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding: 300px 500px;
+}
+
+.contenedor3 .item3{
+	width: 600px;
+	height: 50px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 100px;
+}
+/*Nuestro Objetivo PAGINA BASE*/
+
+/*footer pagina base*/
+.contenedor4{
+	display: flex;
+	flex-direction: row;
+	padding: 100px 200px
+}
+
+.contenedor4 .item4{
+    color:#47ab45;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	align-content: center;
+}
+
+
+
+
+/*footer pagina base*/
+
+
+
+/*Nuestro Objetivo*/
+.grid{
+	display: grid;
+	grid-template-areas: "head head""menu main""foot foot";
+	grid-template-rows: 300px 400px 200px;
+
+}
+
+.a{
+	grid-area:head;background-color: pink;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+}
+
+
+
+
+	
+
+
+.b{
+	grid-area:menu;background-color:#47ab45;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	width: 680px;
+	font-size: 40px;
+
+}
+
+
+
+
+
+.c{
+	grid-area: main;
+
+}
+.d{
+	grid-area: foot;
+	background-color: white;
+}
+
+
+/*Nuestro objetivo*/
+
+/*Quienes somos*/
+.grid2{
+	display: grid;
+	grid-template-areas: "head head" "menu menu" "main main";
+	
+
+}
+
+.a2{
+	grid-area:head;background-color: #4bf084;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+
+}
+
+.b2{
+	grid-area:menu;background-color: #4bf084;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+
+}
+
+.c2{
+	grid-area:main;background-color: #4bf084;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+
+}
+/*Quienes somos*/
+
+/*Barras de menu en el footer*/
+
+.boke{
+	margin: auto;
+	margin-top: 100px;
+	background-color: #ccc;
+
+	
+
+}
+.navbar{
+	display: inline-block;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-right: 60px;
+	color: #47ab45;
+
+}
+
+
+
+
+/*Barras de menu en el footer*/
+
+div .carousel slide {
+width: 200px;
+}
+
+/*Proveedores*/
+.gridP{
+	display: grid;
+	grid-area: "head head""menu menu""main main"
+}
+@media (max-width: 576px){
+.gridP{
+	display: grid;
+	grid-template-columns: 300px 
+}
+}
+
+.s{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: #ccc;
+	font-size: 50px;
+}
+@media (max-width: 576px){
+.s{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: #ccc;
+}
+}
+
+.j{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: pink;
+	font-size: 50px;
+}
+@media (max-width: 576px){
+.j{
+
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: pink;
+}
+}
+.f{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: green;
+	font-size: 50px;
+}
+@media (max-width: 576px){
+.f{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	background-color: green;
+}
+}
