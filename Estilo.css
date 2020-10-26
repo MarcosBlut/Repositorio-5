@@ -112,7 +112,7 @@ ul li ul {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background: url(../../img/Imagen2.jpg);
+	background: url(../../../img/Imagen2.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	padding: 300px 500px;
@@ -134,7 +134,7 @@ ul li ul {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background: url(../../img/nuestrosproductos.jpg);
+	background: url(../../../img/nuestrosproductos.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	padding: 300px 500px;
@@ -157,7 +157,7 @@ ul li ul {
 	display: flex;
 	flex-direction: row;
 	align-content: : center;
-	background: url(../../img/QS.jpg);
+	background: url(../../../img/QS.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	padding: 300px 500px;
