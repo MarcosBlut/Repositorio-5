@@ -1,0 +1,48 @@
+.proveedores{
+	background-color: green;
+}
+.proveedores--letra{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+.testimonio{
+	background-color: pink;
+}
+.tertimonio--letra{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+}
+
+$ancho:500px;
+
+.contenedor{
+	display:flex;
+	allign-items:center;
+	padding: $ancho/4 $ancho/2;
+}
+.contenedor .item{
+	width: $ancho/5;
+	height: $ancho/8;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: $ancho/10;
+
+}
+
+$clave:diferencia;
+p{
+	@if $clave==diferencia{color:pink;}
+	@else if $clave==testimonio{color:green;}
+	@else if $clave==cambio{color:lightblue;}
+	@else {color:white;}
+}
+
+.item--nueva{
+	@extend.item;
+	background-color:lightgreen;
+	
+
+}
